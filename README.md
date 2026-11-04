@@ -29,3 +29,11 @@ subsequently expanded. Publication is generated through ColabGitEduAutomation
 (CGEA); local authoring sources remain separate. See [source notes](SOURCE_NOTES.md)
 for documented mathematical/source discrepancies and [validation](VALIDATION.md)
 for the checks and limitations of this publication.
+
+## Latest course update — 2026-11-05
+
+The Hamiltonian lecture includes the new anisotropic-optics diagrams. The Poisson
+lecture preserves the physics-first sequence and develops Lie structures afterwards,
+using canonical q^i,p_i indices. The Hamilton–Jacobi notebook is marked as a draft
+and includes additive separation, characteristic reconstruction, elliptic coordinates,
+oscillator/pendulum/Kepler examples and self-study exercises with hidden checkpoints.

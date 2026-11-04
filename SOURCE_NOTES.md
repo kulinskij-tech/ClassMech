@@ -395,3 +395,39 @@ Both notebooks run independently. The ToC has 19 flat numbered entries and both
 notebooks have reciprocal navigation. Original provenance metadata is historical;
 moved-cell origin is explicitly recorded. No Wolfram source was changed by this
 Python restructuring. Preservation, saved-output and link checks pass.
+
+## Lie groups and Lie algebras introduction — 2026-10-30
+
+Added a matching introductory section to `classmech_poisson.ipynb` and its native
+`.nb` twin, ahead of the original phase-space discussion. The sequence is vector
+fields as derivations, cancellation of second derivatives in their commutator,
+translation/shear example, Lie algebra axioms and structure constants, Lie group
+and tangent algebra, matrix exponentials, translations/SO(2)/SO(3), and Poisson
+observables/Hamiltonian generators. Included three closed answer checkpoints and
+independent symbolic examples in both runtimes. Explained the convention
+X_f h={h,f}, for which [X_f,X_g]=-X_{ {f,g} }; constants are in the kernel.
+
+Corrected two existing displayed definition typos in both formats: the last
+antisymmetry term in equation (2) is -{H,f}, not -{f,H}; equation (6) now uses
+{g,f}=sum(g_q f_p-g_p f_q), consistent with the existing poiss implementation and
+{q,p}=1. Original native contents remain in dated backups for provenance.
+
+Validation on Windows, 2026-10-30: full expanded Python notebook executed freshly,
+new code assertions and an additional Jacobi check passed, schema/no-error checks
+passed; local Mathematica examples passed and the finished native notebook loads.
+39 new native cells; all original native cells preserved except the two corrected
+definitions. Existing Python code sources preserved. No full frontend visual audit.
+Reference: MIT OCW 18.745 Lie Groups and Lie Algebras I lecture notes:
+https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/resources/lecture-notes/
+
+Placement clarification, 2026-10-30: the Lie-theory addition now follows all
+original physical material and is titled “Mathematical structures emerging from
+Hamiltonian mechanics”. Original physics cells/order, outputs and the two sign
+corrections were preserved. Mathematical terminology is developed from the
+mechanical constructions already presented, rather than imposed beforehand.
+
+Canonical-index clarification, 2026-10-30: all general Poisson definitions use
+q^i,p_i, {q^i,p_j}=delta^i_j. This mixed Kronecker delta represents canonical
+pairing, not a metric. The associated antisymmetric Poisson bivector and zero
+coordinate-coordinate/momentum-momentum brackets are now explicit in both formats.
+One-dimensional suppressed-index examples remain unchanged.
