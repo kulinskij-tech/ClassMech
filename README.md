@@ -5,7 +5,7 @@ Lecture notebooks and examples for a university classical mechanics course.
 Start with [the course contents](ClassMech_Python/classmech_TOC.ipynb), or
 [open the contents in Google Colab](https://colab.research.google.com/github/kulinskij-tech/ClassMech/blob/main/ClassMech_Python/classmech_TOC.ipynb).
 
-The collection contains 29 notebooks: 21 numbered lectures, seven supplementary
+The collection contains 30 notebooks: 22 numbered lectures, seven supplementary
 examples, and the contents notebook. Main teaching material is in English;
 some supplementary notebooks are in Ukrainian. Topics include Lagrangian and
 Hamiltonian mechanics, oscillations, averaging, self-oscillations, phase portraits,
@@ -37,3 +37,10 @@ lecture preserves the physics-first sequence and develops Lie structures afterwa
 using canonical q^i,p_i indices. The Hamilton–Jacobi notebook is marked as a draft
 and includes additive separation, characteristic reconstruction, elliptic coordinates,
 oscillator/pendulum/Kepler examples and self-study exercises with hidden checkpoints.
+
+## Lecture restructuring — 2026-11-05
+
+[Optical–mechanical analogy](ClassMech_Python/classmech_optmechanalog.ipynb) is now
+a separate lecture after Hamiltonian mechanics. The latter adds Jacobi’s theorem
+and proof. The contents follows the revised native order; Poisson and first-order
+PDE characteristics material is synchronized, while the expanded HJ draft is retained.

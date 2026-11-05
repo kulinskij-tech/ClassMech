@@ -431,3 +431,27 @@ q^i,p_i, {q^i,p_j}=delta^i_j. This mixed Kronecker delta represents canonical
 pairing, not a metric. The associated antisymmetric Poisson bivector and zero
 coordinate-coordinate/momentum-momentum brackets are now explicit in both formats.
 One-dimensional suppressed-index examples remain unchanged.
+
+## Native restructuring transferred — 2026-11-05
+
+Mirrored the current native lecture split: optical–mechanical analogy now has its
+own Python twin `classmech_optmechanalog.ipynb`; Hamiltonian mechanics follows
+native order and includes the added Jacobi complete-integral theorem and proof.
+Preserved existing translated optics code, imported pictures, static figures and
+interactive controls in the new standalone lecture. Added the required local
+imports/widget helper so it executes independently. Characteristics and Poisson
+prose/formulas follow current native content; checkpoint answers stay closed.
+The expanded Python HJ draft is preserved byte-for-byte, as its additions have no
+corresponding new native rewrite. All other native/Python source hashes were
+checked; no additional native-content changes were detected.
+
+Retained necessary mathematical corrections: Hamiltonian Legendre Hessian is a
+velocity derivative; Jacobi's nondegeneracy condition is the determinant of the
+mixed n-by-n derivative matrix, with n essential parameters, excluding the
+arbitrary additive constant. Kept the original native expressions in cell metadata.
+Updated equation numbering/references for the native order and supported edited
+native gradient templates and symbols. Full fresh Python execution passed for
+Hamiltonian mechanics, optical–mechanical analogy and Poisson brackets. PDE
+characteristics is prose/formulas, with no code. Complete CGEA export validation:
+30 notebooks, 61 local links, no missing resources/saved errors, exact expected
+transformations, schema and source-preservation checks. No full browser/Colab audit.

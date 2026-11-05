@@ -37,3 +37,14 @@ cells and outputs were preserved. Poisson additions and index/placement correcti
 have the checks recorded in the source handoff. No full-course re-execution, live
 Colab run or full browser/MathJax audit was performed for this refresh. HJ remains
 a labelled draft; the native WM version was not rewritten for that Python draft.
+
+## Native restructuring refresh — 2026-11-05
+
+Fresh CGEA staging validates all 30 notebooks and 61 local navigation links, exact
+publication transformations, full course inventory and resource bytes, source schemas,
+nonempty code syntax and absence of saved errors. Newly separated optics, Hamiltonian
+mechanics and Poisson brackets each pass fresh-kernel execution. Translated displays
+and interactive controls are preserved. New native gradient templates are rendered.
+Characteristics has no code. The expanded Python HJ draft was preserved byte-for-byte.
+No full browser/MathJax audit or live Colab execution; unaffected notebooks were not
+rerun. Original .nb files and reference books remain outside this Python publication.
